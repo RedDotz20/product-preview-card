@@ -30,6 +30,8 @@ body {
 }
 
 h1 {
+	font-family: 'Fraunces';
+	font-size: 2.5rem;
 	line-height: 0.95;
 	font-weight: 700;
 }
@@ -45,7 +47,7 @@ p {
 }
 
 .main-card {
-	/* min-width: 100px; */
+	width: 625px;
 	display: flex;
 }
 
@@ -73,14 +75,27 @@ img {
 .price-container {
 	display: flex;
 	align-items: center;
-	gap: 24px;
+	gap: 20px;
 }
 
 .discounted-price {
+	font-family: 'Fraunces';
 	color: var(--dark-cyan);
-	font-size: 1.5rem;
+	font-size: 2.25rem;
+	font-weight: 800;
 }
 
 .main-price {
+	font-family: 'Fraunces';
 	text-decoration: line-through;
+	color: #898a92;
+}
+
+button {
+	padding: 0.75rem;
+	border-radius: 8px;
+	border: 0;
+	background-color: #3d8168;
+	color: #fff;
+	font-weight: 700;
 }
